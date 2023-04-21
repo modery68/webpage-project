@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header .logo {
+    height: 46px;
+    width: auto;
+}
+
+.content .post {
+    height: 240px;
+    width: auto;
+    margin-bottom:40px;
+}
+
+.content .text{
+    color: #f9faf8;
+}
+
+.title {
+    font-size: 48px;
+    font-weight:bold;
+    color: #f9faf8;
+}
+.content {
+    display: flex;
+    margin-top: 64px;
+    margin-left: 64px;
+    margin-right: 32px;
+    justify-content: space-between;
+}
+
+.signup {
+    color: #E5E7EB;
+    font-weight: 800;
+}
+
+button {
+    background-color: #3882f6;
+    border: 1px solid royalblue;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.profile {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: 64px;
+    margin-right: 32px;
+}
+
+.product {
+    display: flex;
+}
+.boba {
+    border-radius: 16px;
+    border: 1px solid white;
+    height: 300px;
+    width: auto;
+    gap: 16px;
+}
