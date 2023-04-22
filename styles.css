@@ -1,4 +1,5 @@
 body {
+    color: #f9faf8;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -14,6 +15,7 @@ body {
     height: 240px;
     width: auto;
     margin-bottom:40px;
+    margin-left: 60px;
 }
 
 .content .text{
@@ -21,9 +23,10 @@ body {
 }
 
 .title {
-    font-size: 48px;
+    font-size: 42px;
     font-weight:bold;
     color: #f9faf8;
+    margin-bottom: 24px;
 }
 .content {
     display: flex;
@@ -71,6 +74,11 @@ a {
 
 .product {
     display: flex;
+    justify-content: center;
+    gap:60px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: black;
 }
 .boba {
     border-radius: 16px;
@@ -78,4 +86,56 @@ a {
     height: 300px;
     width: auto;
     gap: 16px;
+
+}
+
+.part2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.slogan {
+    padding: 120px;
+    text-align: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quotes {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.promo {
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #3882f6;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.promo .signup{
+    border: white solid 1px;
+    color: #f9faf8;
+}
+
+.promotitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer {
+    padding: 16px;
+    background-color: #1F2937;
+    text-align: center;
 }
